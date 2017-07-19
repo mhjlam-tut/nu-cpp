@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{79C1C4E4-5B4C-4A30-AC75-B68E4C2C8D99}</ProjectGuid>
-    <RootNamespace>loaddl</RootNamespace>
+    <ProjectGuid>{C64F38B3-4DB1-497E-BBF3-442C7295A305}</ProjectGuid>
+    <RootNamespace>templates</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -120,11 +120,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DynamicLibrary.cpp" />
-    <ClCompile Include="loaddl.cpp" />
+    <ClCompile Include="templates.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DynamicLibrary.h" />
+    <ClInclude Include="templates.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
