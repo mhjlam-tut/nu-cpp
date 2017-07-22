@@ -34,3 +34,5 @@
 .vs/
 bin/
 */obj/
+/templates/x64/Debug
+/templates/x64/Debug
